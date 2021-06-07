@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/listelemeFragment2">
+    <fragment
+        android:id="@+id/listelemeFragment2"
+        android:name="com.example.mobilprogramlamaodev.ListelemeFragment"
+        android:label="fragment_listeleme"
+        tools:layout="@layout/fragment_listeleme" />
+    <fragment
+        android:id="@+id/detayFragment2"
+        android:name="com.example.mobilprogramlamaodev.DetayFragment"
+        android:label="fragment_detay"
+        tools:layout="@layout/fragment_detay" />
+</navigation>

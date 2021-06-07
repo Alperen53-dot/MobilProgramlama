@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".DetayFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Şehir İsmi"
+        android:textSize="21sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/detailsisim"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+
+
+        android:layout_height="wrap_content"></TextView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="5dp"
+        android:id="@+id/detailsresim"
+
+        android:src="@color/cardview_shadow_start_color"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Açıklama"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/detailsaciklama"
+        android:layout_height="wrap_content"></TextView>
+
+
+</LinearLayout>
